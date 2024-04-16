@@ -1,0 +1,805 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #faf7ed;
+  color: #8aa379;
+  height: 73px;
+  width: 100%;
+}
+
+.nav-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+}
+
+/* .logo img {
+  transform: scaleY(1.18);
+} */
+
+.items {
+  padding-top: 20px;
+}
+
+.nav-container .nav-logo .items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-container .nav-logo .items ul li a {
+  text-decoration: none;
+  color: #8aa379;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icons {
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.icons i {
+  margin-left: 12px;
+}
+  /* navbar */
+
+.home {
+  height: 90vh;
+  background-image: url(../img/cedar-raised-beds-sale-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.h-content {
+  text-align: center;
+  width: 1000px;
+  height: 540px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+}
+
+.home .h-content h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.home .h-content p {
+  color: white;
+  font-size: 25px;
+}
+
+.home  .h-content button {
+  background-color: #e8b533;
+  color: white;
+  border: none;
+  font-size: 22px;
+  padding: 15px 50px;
+}
+
+.home .h-content button:hover {
+  opacity: 0.9;
+}
+
+.edge {
+  width: 100%;
+  transform: translateY(-50px);
+}
+    /* home content */
+
+.products {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.contain-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.area-1 {
+  text-align: center;
+}
+
+.products .contain-product .area-1 p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.view-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box1 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/natural-cedar-planter-boxes-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/cedar-garden-sheds.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/deer-proof-garden-kits-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products .contain-product .area-1 .view-box p {
+  margin-top: 50px;
+  color: white;
+}
+
+.products .contain-product .area-1 .view-box a {
+  font-size: 20px;
+  color: white;
+}
+
+.products .contain-product .area-1 .view-box a:hover {
+  color: #8aa379;
+  transition: 0.3s;
+}
+
+.area-2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.products .contain-product .area-2 p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.box-a {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/uY4U2y8CpRyHnjK5tzWgbE7pMDtTAvqROv8X96HjEV724JadJOyKAgIbsREg4Wnh__32482.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-b {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/2iWaexqqKWPGpu46bsowPX1heyG9apZJhEC1FYXjVeyBipgIJBdx7DU4VUefpLaL__31486.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-c {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/c5T3Q0YnN3NvtvjQnkRnOsxFhBBrEC5BpQz13zN1WXkqzYfkkuCmMJyEIGRh9Ip7__42223.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-d {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/tOKbR4fha3oR3vvWAgtsB0qJyb8p488foUoIe4CLBzo4aYo0ojVjaFNfxj3FQI1u__65315.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products .contain-product .area-2 .view-box button {
+  color: white;
+  background-color: #e8b533;
+  border: none;
+  padding: 15px 10px;
+  margin-top: 25%;
+  opacity: 0;
+}
+
+.products .contain-product .area-2 .view-box button:hover {
+  opacity: 1;
+  transition: all 0.6s;
+}
+
+.products .contain-product .area-2 .view-box p {
+  font-size: 15px;
+  /* margin-top: 75px; */
+}
+
+.prod-info {
+  margin-top: 80px;
+}
+
+.prod-info i {
+  color: #e8b533;
+}
+
+.prod-info span {
+  color: #8aa379;
+}
+
+.area-3 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.products .contain-product .area-3 p {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 60px 0;
+}
+
+.products .contain-product .area-3 .view-box button {
+  color: white;
+  background-color: #e8b533;
+  border: none;
+  padding: 15px 10px;
+  margin-top: 25%;
+  opacity: 0;
+}
+
+.products .contain-product .area-3 .view-box button:hover {
+  opacity: 1;
+  transition: all 0.6s;
+}
+
+.products .contain-product .area-3 .view-box p {
+  font-size: 15px;
+  /* margin-top: 75px; */
+}
+
+.box-a1 {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/zu8NGs8HIYWRpakJkpktpV46LcX7N1E9u6ONzPQXyrurAZl564rbI3HJTiSc6BAT__12087.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-b2 {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/MxYyZBZ4t1P0e64pEnfI1l9oZGqunQ4S7eHN1W4LPG7kRSE6eXI5KeIlI4PlJu7A__69292.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-c3 {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/WaXsNTHCsm0gL12nL569ozQul0zTQ9qWEYLJU8OB0h80htKdVgTaDxAExr8mC26x__83305.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-d4 {
+  width: 275px;
+  height: 200px; 
+  background-image: url(../img/V7qk8ONkAnCnMvEt4lc5iaKVOFVtsM9wDSyT8kljCKeqHTdONSMq6LezP12sqDTl__71645.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  /* end of products */
+.Guides {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.contain-Guides {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.Guides-card1 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/memorial-garden-bench-1024x641.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Guides-card2 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/phlox-flowers-1024x640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Guides-card3 {
+  width: 380px;
+  height: 200px; 
+  background-image: url(../img/fall-greenhouse-prep-1024x641.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.over-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(red, green, blue, alpha);
+}
+
+.c-logo {
+  /* display: flex;
+  justify-content: end; */
+  color: white;
+  position: relative;
+}
+
+.Guides .contain-Guides .c-logo .over-layer .div-logo p {
+  margin: 5px 7px 0 5px;
+}
+
+.p-g-card {
+  width: 60%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left:  50%;
+  transform: translate(-50%, -50%);
+}
+
+.over-layer {
+  position: absolute;
+  background-color: rgb(0, 0, 0,0.4);
+  width: 100%;
+  height: 200px;
+}
+
+.div-logo {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-browse {
+  margin-top: 40px;
+}
+
+.btn-browse button{
+  padding: 12px 40px;
+  color: #8aa379;
+  font-size: 18px;
+  border: solid 2px #8aa379;
+  background-color: white;
+}
+
+.btn-browse button:hover {
+  background-color: #8aa379;
+  color: white;
+  transition: 0.5s;
+}
+
+.information {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.contain-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.info-card {
+  width: 380px;
+  height: 200px;
+}
+
+.info-card h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.info-p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.information .contain-info .info-card a {
+  color: #8aa379;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.our-story {
+  margin-top: 100px;
+  height: 45vh;
+  background-image: url(../img/our-story-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contain-our {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain-our h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.contain-our img {
+  margin-top: 20px;
+}
+
+.contain-our p {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.contain-our button {
+  padding: 12px 40px;
+  border: none;
+  background-color: #e8b533;
+  color: white;
+  cursor: pointer;
+}
+
+.contain-our button:hover {
+  background-color: white;
+  color: #e8b533;
+  transition: 0.5s;
+}
+
+.social {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social h2 {
+  margin-top: 60px;
+}
+
+.contain-social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.social-card1 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card2 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(1\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card3 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(2\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card4 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(3\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card5 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(4\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card6 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(5\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card7 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(6\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card8 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(7\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card9 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(8\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.social-card10 {
+  width: 380px;
+  height: 380px;
+  background-image: url(../img/download\ \(9\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.reviews-layer {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background-color: rgb(0, 0, 0,0.8);
+  top: 100%;
+}
+
+.social-card1:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.1s ease-in-out;
+}
+.social-card2:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card3:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card4:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card5:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card6:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card7:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card8:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card9:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+.social-card10:hover .reviews-layer{
+  cursor: pointer;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.likes {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+}
+
+.likes i:first-child {
+  margin-right: 25px;
+}
+
+.contact-us {
+  margin-top: 100px;
+  text-align: center;
+  background-image: url(../img/textured-bg-brown-min.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  width: 100%;
+}
+
+.foot-log {
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contain-contact {
+  height: 360px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-card {
+  height: 300px;
+  width: 250px;
+  margin-top: 60px;
+}
+
+.contact-card ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact-card ul li:first-child {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.contact-card ul li {
+  padding: 5px 0 0 0;
+  list-style: none;
+  color: #8aa379;
+}
+
+.contact-card ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.email-card {
+  height: 300px;
+  width: 280px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.email-card input {
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 0px 0px 0px 16px;
+  height: 44px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(208, 51, 31);
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+
+.email-card button {
+  padding: 10px 10px;
+  color: white;
+  background-color: #e8b533;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.contain-payment {
+  width:70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.payment1 {
+  width: 30%;
+}
+.payment2 {
+  width: 30%;
+  margin-top: 10px;
+}
+.payment3 {
+  width: 30%;
+  font-size: 30px;
+}
+
+
+
+
